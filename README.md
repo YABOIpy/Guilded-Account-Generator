@@ -1,6 +1,8 @@
 # Guilded-Account-Generator
 Guilded.gg account generator made in golang
 
+get ur proxies at https://iproyal.com 
+
 install go at https://go.dev
 
 go run .
