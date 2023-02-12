@@ -13,8 +13,8 @@ func (Gu *Guilded) GetAuth() (Auth string, str string, err error) {
 
 	data := map[string]string{
 		"email":    email,
-		"fullName": name,
-		"name":     name,
+		"fullName": name + Gu.RandHex(5),
+		"name":     name + Gu.RandHex(5),
 		"password": pass,
 	}
 	payload, err := Gu.Load(data)
