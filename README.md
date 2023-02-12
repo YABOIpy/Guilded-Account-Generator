@@ -5,6 +5,8 @@ get ur proxies at https://iproyal.com
 
 install go at https://go.dev
 
+add proxy to config.json
+
 go run .
 
 ⭐ for support :smile:
